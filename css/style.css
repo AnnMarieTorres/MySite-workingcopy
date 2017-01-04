@@ -2,7 +2,7 @@ body{
 		padding-top: 40px;
 	}
 #aboutme{
-	padding-top: 30px;
+	padding: 0 0 0 30px;
 }
 #skills{
 	padding-top: 30px;
@@ -109,10 +109,41 @@ li {
 	/*opacity: .5;*/
 
 }
-.container-flex{
+.container-aboutme #aboutMe{
+
 	display: flex;
-	flex-direction: column;
-	padding: 50px
+	flex-wrap: wrap;
+	flex-direction: row-reverse;
+
+	justify-content: space-around;
+	align-items: center;
+
 	
+	
+}
+
+
+
+
+.container-aboutme #aboutMe .para{
+	display: flex;
+	flex-wrap: wrap;
+	margin: 1.2rem;
+	min-width: 35rem;
+	max-width: 80rem;
+	font-size: 18px;
+	@media(max-width: 500px){
+		padding 0;
+		background-color: none;
+	}
+	
+
+}
+.container-aboutme #aboutMe .image{
+	display: flex;
+	flex-wrap: wrap;
+	min-width: 33rem;
+	max-width: 33rem;
+
 }
 
