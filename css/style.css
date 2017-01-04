@@ -101,4 +101,18 @@ li {
     margin-left: -17px;
     color: #00cc00;
 }
+.img-responsive{
+	border-radius: 50%;
+}
+.myImage{
+	border-radius: 50%;
+	/*opacity: .5;*/
+
+}
+.container-flex{
+	display: flex;
+	flex-direction: column;
+	padding: 50px
+	
+}
 
