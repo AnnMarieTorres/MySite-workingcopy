@@ -176,23 +176,16 @@ li {
 	background-image: url("../images/cityLong.jpg") ;
 	background-size: cover;
 	background-position: center;
+	border-top: 5rem;
+	border-top-color: #222222;
 
-	@media (min-width: 1100px){
-		width: 30%;
-		height: 600px;
-		background-image: url("../images/cityLong.jpg") ;
-		background-size: cover;
-		background-position: center;
-	}
+	
 
 }
 .aboutMeNew .section2{
 	width: 70%;
 	height:600px;
-	@media (min-width:1100px){
-		width: 40%;
-		height: 600px;
-	}
+	
 	
 	
 }
@@ -217,11 +210,12 @@ li {
 
 @media screen and (min-width: 700px) {
 	.aboutMeNew{
-
+	border-top: 5px;
+	border-top-color: #222222;
 	display: flex;
 	flex-wrap: nowrap;
 	flex-direction: row;
-	margin-top: -40px;
+	/*margin-top: -40px;*/
 	z-index: -1;
 	background-color: #222222;
 }
@@ -272,16 +266,17 @@ li {
 @media screen and (min-width: 1100px) {
 	.aboutMeNew{
 
+	
 	display: flex;
 	flex-wrap: nowrap;
 	flex-direction: row;
-	margin-top: -40px;
+	/*margin-top: -40px;*/
 	z-index: -1;
 	background-color: #222222;
 }
 
 .aboutMeNew .section1{
-
+		
 		width: 30%;
 		height: 600px;
 		background-image: url("../images/cityLong.jpg") ;
@@ -291,9 +286,10 @@ li {
 
 }
 .aboutMeNew .section2{
-	
+		
 		width: 40%;
 		height: 600px;
+		z-index: 0;
 	
 	
 	
@@ -312,16 +308,77 @@ li {
 	text-align: center;
 }
 .aboutMeNew .section3{
-	
+		
 		width: 30%;
 		height: 600px;
 		background-image: url("../images/cityLong.jpg") ;
 		background-size: cover;
 		background-position: center;
-	
+		z-index: 0;
 
 }
 }
 /*New about me section Ending*/
 
-
+/*New skills Section Beginning*/
+#skills{
+	margin-top:-22px;
+	text-align: center;
+}
+.skillsSection{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	
+	
+	
+}
+.skillsSection .skill{
+	height:20rem;
+	width: 100rem;
+	color:#FFF;
+	background-color: #222222;
+	margin-top:-28px;
+	border: 3px solid #00cc00;
+	-webkit-transform: skewY(-2deg);
+  -moz-transform: skewY(-2deg);
+  -ms-transform: skewY(-2deg);
+  -o-transform: skewY(-2deg);
+  transform: skewY(-2deg);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: initial;
+/*	 -webkit-clip-path: polygon(0 0, 1600px 0, 1600px 87%, 0 100%);
+  	clip-path: polygon(0 0, 1600px 0, 1600px 87%, 0 100%);*/
+	
+}
+.skillsSection .skill h1{
+	color: #FFFFFF;
+	text-align: center;
+}
+.skillsSection .skill ul{
+	/*margin-left: 40px;*/
+}
+.skillsSection .skill .orderedList{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	margin-left: 75px;
+	margin-top: 25px;
+}
+.skillsSection .skill .orderedList .group1{
+	height:65px;
+	width:auto;
+	display: flex;
+	flex-wrap: nowrap;
+	color:#00cc00;
+	
+}
+.skillsSection .skill .orderedList .group2{
+	height:65px;
+	width:auto;
+	display: flex;
+	flex-wrap: nowrap;
+	color: #00cc00;
+	
+}
+/*New skills Section Ending*/
