@@ -325,12 +325,11 @@ li {
 	margin-top:-22px;
 	text-align: center;
 }
+
 .skillsSection{
 	display: flex;
 	flex-direction: row;
-	flex-wrap: nowrap;
-	
-	
+	flex-wrap: wrap;
 	
 }
 .skillsSection .skill{
@@ -338,19 +337,18 @@ li {
 	width: 100rem;
 	color:#FFF;
 	background-color: #222222;
-	margin-top:-28px;
+	margin-top:-39px;
 	border: 3px solid #00cc00;
 	-webkit-transform: skewY(-2deg);
-  -moz-transform: skewY(-2deg);
-  -ms-transform: skewY(-2deg);
-  -o-transform: skewY(-2deg);
-  transform: skewY(-2deg);
-  -webkit-backface-visibility: hidden;
-  backface-visibility: initial;
-/*	 -webkit-clip-path: polygon(0 0, 1600px 0, 1600px 87%, 0 100%);
-  	clip-path: polygon(0 0, 1600px 0, 1600px 87%, 0 100%);*/
+    -moz-transform: skewY(-2deg);
+    -ms-transform: skewY(-2deg);
+    -o-transform: skewY(-2deg);
+    transform: skewY(-2deg);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: initial;
 	
 }
+
 .skillsSection .skill h1{
 	color: #FFFFFF;
 	text-align: center;
@@ -362,7 +360,7 @@ li {
 	display: flex;
 	flex-direction: row;
 	flex-wrap: nowrap;
-	margin-left: 75px;
+	margin-left: 25%;
 	margin-top: 25px;
 }
 .skillsSection .skill .orderedList .group1{
@@ -381,4 +379,48 @@ li {
 	color: #00cc00;
 	
 }
+@media screen and (min-width: 630px){
+	.skillsSection .skill .orderedList{
+	
+	margin-left: 33%;
+	
+}
+}
+@media screen and (min-width: 835px)  {
+	.skillsSection .skill{
+	height:25rem;
+	margin-top:-28px;
+	}
+	.skillsSection{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	
+}
+	.skillsSection .skill .orderedList{
+	
+	margin-left: 10%;
+	
+}
+}
+@media screen and (min-width: 1083px) {
+	.skillsSection .skill{
+	height:20rem;
+	margin-top:-28px;
+	}
+	.skillsSection{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	
+}
+	.skillsSection .skill .orderedList{
+	
+	margin-left: 20%;
+	
+}
+	
+}
+
+
 /*New skills Section Ending*/
