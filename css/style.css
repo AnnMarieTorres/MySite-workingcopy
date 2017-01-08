@@ -20,6 +20,11 @@ body{
 	background-color: #222222;
 	color:white;
 }
+#project{
+	padding-top: 70px;
+	background-color: #222222;
+	color:white;
+}
 #workhistory{
 	padding-top: 30px;
 	background-color: #222222;
@@ -324,6 +329,7 @@ li {
 #skills{
 	margin-top:-22px;
 	text-align: center;
+	padding-bottom: 15px;
 }
 
 .skillsSection{
@@ -421,6 +427,41 @@ li {
 }
 	
 }
-
-
 /*New skills Section Ending*/
+/*New project Section beginning*/
+#project{
+	height: 20rem;
+	text-align: center;
+	background-color: #222222;
+	color: white;
+	margin-top: -22px;
+	
+}
+.projectSection{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	background-color: #222222;
+	background-image: url("../images/comp.jpg");
+	width: auto;
+	height: 600px;
+	background-size: cover;
+	background-position: center;
+	margin-top: -70px;
+	z-index: -1
+}
+.projectSection .project{
+	width:40rem;
+	height:40rem;
+	background-color: #222222;
+	z-index: 1;
+	margin-top: 10rem;
+}
+/*New project Section Ending*/
+
+
+
+
+
+
