@@ -575,11 +575,11 @@ form{
 .contactSection .email .formgroup .label{
 
 	text-align: center;
-	width: 20%;
-	min-width: 20%;
+	width: 25%;
+	min-width: 25%;
 }
 .contactSection .email .formgroup .input{
-	width: 80%;
+	width: 75%;
 }
 
 legend{
