@@ -4,8 +4,8 @@ if(isset($_POST['email'])) {
  
     // EDIT THE 2 LINES BELOW AS REQUIRED
     $email_to = "annmarietorres@outlook.com";
-    $email_subject = "ATTENTION: You have a order";
-    $email_subject2 = "Your cake order confermation-do not reply to this email address";
+    $email_subject = "ATTENTION: You have a web email";
+    $email_subject2 = "Your email to NameInCode.com DO NOT REPLY TO THIS EMAIL";
  
     function died($error) {
         // your error code can go here
@@ -25,8 +25,8 @@ if(isset($_POST['email'])) {
         died('We are sorry, but there appears to be a problem with the form you submitted.');       
     }
  
-    $first_name = $_POST['first_name']; // required
-    $last_name = $_POST['last_name']; // required
+    $first_name = $_POST['fname']; // required
+    $last_name = $_POST['lname']; // required
     $message = $_POST['message'];//required
     $email_from = $_POST['email']; // required
     
@@ -42,17 +42,13 @@ if(isset($_POST['email'])) {
   if(!preg_match($string_exp,$last_name)) {
     $error_message .= 'The Last Name you entered does not appear to be valid.<br />';
   }
-     $phone_exp ="/^(\d[\s-]?)?[\(\[\s-]{0,2}?\d{3}[\)\]\s-]{0,2}?\d{3}[\s-]?\d{4}$/i";
-  if(!preg_match($phone_exp, $phone)){
-    $error_message .= 'The Phone Number you entered does not appear to be valid.<br />';
-  }
-  if(strlen($comments) < 2) {
+  if(strlen($message) < 2) {
     $error_message .= 'The Comments you entered do not appear to be valid.<br />';
   }
   if(strlen($error_message) > 0) {
     died($error_message);
   }
-    $email_message = "Form details below.\n\n";
+    $email_message = "Email to www.NameInCode.com form details below.\n Do not reply to this email\n\n";
  
     function clean_string($string) {
       $bad = array("content-type","bcc:","to:","cc:","href");
