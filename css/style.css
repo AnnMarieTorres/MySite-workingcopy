@@ -1,7 +1,7 @@
-/**{
+*{
 	background-color: #222222;
 	color:white;
-}*/
+}
 body{
 	padding-top: 40px;
 	background-color: #222222;
@@ -204,6 +204,7 @@ li {
 .aboutMeNew .section2 .btn-group{
 	align-items: center
 	text-align: center;
+	margin-top: -30px;
 }
 .aboutMeNew .section3{
 	width: 15%;
@@ -509,8 +510,225 @@ li {
 }
 /*New project Section Ending*/
 
+/* New Contact Section Beginning */
+#contactme{
+	height: 20rem;
+	text-align: center;
+	background-color: #222222;
+	color: white;
+	margin-top: -22px;
+	
+}
+.contactSection{
+	display: flex;
+	flex-direction: column-reverse;
+	flex-wrap: nowrap;
+	background-color: #222222;
+	color: white;
+	padding-top: -20px;
+	margin-top: -110px;
+	margin-bottom: 40px;
+	padding-left: 15px;
+	width: 100%;
+	text-align: center;
+	
+	
+}
+
+.contactSection .address{
+	
+	width:100%;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	/*border-right: 1px solid #00cc00;*/
+	text-align: center;
+}
+.contactSection .address .label{
+	width: 50%;
+}
+.contactSection .address .formgroup{
+	width: 100%;
+	align-items: center;
+
+}
+form{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	background-color: #222222;
+	color: white;
+	
+
+}
+.contactSection .email{
+	width: 100%;
+}
+.contactSection .email .formgroup{
+	text-align: right;	
+	/*width: 100%;*/
+	padding: 5px 5px 5px 5px;
+	/*margin-left: 25%;
+	margin-right:25%;
+	width: 50%*/;
+
+}
+.contactSection .email .formgroup .label{
+
+	text-align: center;
+	width: 20%;
+	min-width: 20%;
+}
+.contactSection .email .formgroup .input{
+	width: 80%;
+}
+
+legend{
+	color: white;
+	width: 100%;
+
+}
+
+@media screen and (min-width: 835px)  {
+	
+	.contactSection{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	width: auto;
+	height: 350px;
+	}
+	.contactSection .email .formgroup{
+	text-align: right;	
+	width: 100%;
+	padding: 5px 5px 5px 5px;
+	/*margin-left: 25%;
+	margin-right:25%;
+	width: 50%*/;
+
+}
+	.contactSection .address{
+	
+	width:50%;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	/*border-right: 1px solid #00cc00;*/
+	text-align: center;
+}
+.contactSection .address .label{
+	width: 50%;
+}
+.contactSection .address .formgroup{
+	width: 50%;
+	align-items: center;
+
+}
+form{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	background-color: #222222;
+	color: white;
+	
+
+}
 
 
+.contactSection .email .formgroup .label{
+	
+	text-align: center;
+	width: 20%;
+	min-width: 20%;
+}
+.contactSection .email .formgroup .input{
+	width: 80%;
+}
+
+legend{
+	color: white;
+	width: 100%;
+
+}
+}
+@media screen and (min-width: 1083px) {
+		
+	.contactSection{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	width: auto;
+	height: 350px;
+	}
+	.contactSection .email .formgroup{
+	text-align: right;	
+	width: 100%;
+	padding: 5px 5px 5px 5px;
+	/*margin-left: 25%;
+	margin-right:25%;
+	width: 50%*/;
+
+}
+	.contactSection .address{
+	
+	width:50%;
+	padding-top: 80px;
+	padding-bottom: 40px;
+	/*border-right: 1px solid #00cc00;*/
+	text-align: center;
+}
+.contactSection .address .label{
+	width: 50%;
+}
+.contactSection .address .formgroup{
+	width: 50%;
+	align-items: center;
+
+}
+form{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	background-color: #222222;
+	color: white;
+	
+
+}
 
 
+.contactSection .email .formgroup .label{
+	
+	text-align: center;
+	width: 20%;
+	min-width: 20%;
+}
+.contactSection .email .formgroup .input{
+	width: 80%;
+}
 
+legend{
+	color: white;
+	width: 100%;
+
+}
+	
+}
+/* New Contact Section Ending */
+.btn{
+	background-color: #00cc00;
+	color:white;
+}
+.social-icons{
+	/*margin-top: -40px;*/
+	align-content: left;
+	color:#00cc00;
+
+}
+footer{
+	margin-top: -40px;
+}
+/*.section-contact{
+	background-color: #222222;
+}
+.container{
+	background-color: #222222;
+	color: white;
+}*/
