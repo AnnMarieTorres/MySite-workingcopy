@@ -209,7 +209,13 @@ li {
 .aboutMeNew .section3{
 	width: 15%;
 	
-	
+	height: 600px;
+	background-image: url("../images/cityLong1.jpg") ;
+	background-size: cover;
+	background-position: center;
+	border-top: 5rem;
+	border-top-color: #222222;
+
 	
 }
 
@@ -255,11 +261,7 @@ li {
 .aboutMeNew .section3{
 	
 		width: 20%;
-		height: 600px;
-		background-image: url("../images/cityLong1.jpg") ;
-		background-size: cover;
-		background-position: center;
-	
+		
 
 }
 }
@@ -433,7 +435,7 @@ li {
 	background-color: #222222;
 	background-image: url("../images/comp1.jpg");
 	width: auto;
-	height: 800px;
+	height: 820px;
 	background-size: cover;
 	background-position: center;
 	margin-top: -70px;
