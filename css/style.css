@@ -42,7 +42,7 @@ body{
 }
 	
 .jumbotron{
-	background-image: url("../images/city.jpg") ;
+	background-image: url("../images/city1.jpg") ;
 	background-size: cover;
 	background-position: center;
 	opacity: 1;
@@ -178,7 +178,7 @@ li {
 .aboutMeNew .section1{
 	width: 15%;
 	height: 600px;
-	background-image: url("../images/cityLong.jpg") ;
+	background-image: url("../images/cityLong1.jpg") ;
 	background-size: cover;
 	background-position: center;
 	border-top: 5rem;
@@ -208,10 +208,9 @@ li {
 }
 .aboutMeNew .section3{
 	width: 15%;
-	height: 600px;
-	background-image: url("../images/cityLong.jpg") ;
-	background-size: cover;
-	background-position: center;
+	
+	
+	
 }
 
 @media screen and (min-width: 700px) {
@@ -229,11 +228,7 @@ li {
 .aboutMeNew .section1{
 
 		width: 20%;
-		height: 600px;
-		background-image: url("../images/cityLong.jpg") ;
-		background-size: cover;
-		background-position: center;
-	
+		
 
 }
 .aboutMeNew .section2{
@@ -261,7 +256,7 @@ li {
 	
 		width: 20%;
 		height: 600px;
-		background-image: url("../images/cityLong.jpg") ;
+		background-image: url("../images/cityLong1.jpg") ;
 		background-size: cover;
 		background-position: center;
 	
@@ -284,11 +279,7 @@ li {
 .aboutMeNew .section1{
 		
 		width: 30%;
-		height: 600px;
-		background-image: url("../images/cityLong.jpg") ;
-		background-size: cover;
-		background-position: center;
-	
+		
 
 }
 .aboutMeNew .section2{
@@ -316,11 +307,7 @@ li {
 .aboutMeNew .section3{
 		
 		width: 30%;
-		height: 600px;
-		background-image: url("../images/cityLong.jpg") ;
-		background-size: cover;
-		background-position: center;
-		z-index: 0;
+		
 
 }
 }
@@ -444,7 +431,7 @@ li {
 	flex-wrap: nowrap;
 	justify-content: space-around;
 	background-color: #222222;
-	background-image: url("../images/comp.jpg");
+	background-image: url("../images/comp1.jpg");
 	width: auto;
 	height: 800px;
 	background-size: cover;
@@ -572,14 +559,9 @@ form{
 	width: 50%*/;
 
 }
-.contactSection .email .formgroup .label{
 
-	text-align: center;
-	width: 25%;
-	min-width: 25%;
-}
 .contactSection .email .formgroup .input{
-	width: 75%;
+	width: 100%;
 }
 
 legend{
@@ -609,7 +591,8 @@ legend{
 	.contactSection .address{
 	
 	width:50%;
-	padding-top: 40px;
+	padding-top: 80px;
+	
 	padding-bottom: 40px;
 	/*border-right: 1px solid #00cc00;*/
 	text-align: center;
@@ -633,14 +616,9 @@ form{
 }
 
 
-.contactSection .email .formgroup .label{
-	
-	text-align: center;
-	width: 20%;
-	min-width: 20%;
-}
+
 .contactSection .email .formgroup .input{
-	width: 80%;
+	width: 100%;
 }
 
 legend{
@@ -694,14 +672,9 @@ form{
 }
 
 
-.contactSection .email .formgroup .label{
-	
-	text-align: center;
-	width: 20%;
-	min-width: 20%;
-}
+
 .contactSection .email .formgroup .input{
-	width: 80%;
+	width: 100%;
 }
 
 legend{
