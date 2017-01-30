@@ -358,6 +358,7 @@ li {
 	flex-wrap: nowrap;
 	margin-left: 25%;
 	margin-top: 25px;
+
 }
 .skillsSection .skill .orderedList .group1{
 	height:65px;
@@ -375,6 +376,19 @@ li {
 	color: #00cc00;
 	
 }
+@media screen and (min-width: 300px){
+	.skillsSection .skill .orderedList{
+	margin-left: 15%;
+	
+	
+}
+.skillsSection .skill{
+	height:22rem;
+	margin-top:-28px;
+
+	}
+}
+
 @media screen and (min-width: 630px){
 	.skillsSection .skill .orderedList{
 	
