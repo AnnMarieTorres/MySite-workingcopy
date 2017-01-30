@@ -14,7 +14,9 @@
 	<!--Font Awesome-->
 	<link rel="stylesheet" href="font-awesome-4.6.3/css/font-awesome.min.css">
 	<!--http://fontawesome.io/icons/-->
-
+	<!-- smooth scroll -->
+	<script src="js/dist/js/smooth-scroll.js"></script>
+	<!-- end smooth scroll -->
 	<!-- Template styles-->
     <link rel="stylesheet" href="css/style.css">
 
@@ -44,14 +46,14 @@
 			<div class="collapse navbar-collapse navbar-right" id="navbar-collapse">
 				
 				<ul class="nav navbar-nav">
-					<li class="active"><a href="#aboutme">My Story</a>
-					<li><a href="#skills">Skills</a>
-					<li><a href="#project">Projects</a>
+					<li class="active"><a data-scroll href="#aboutme">My Story</a>
+					<li><a data-scroll href="#skills">Skills</a>
+					<li><a data-scroll href="#project">Projects</a>
 					<!-- <li><a href="#education">Education</a>
 					<li><a href="#workhistory">Work History</a>
 					<li><a href="#volunteer">Volunteer</a> -->
 					<!--<li><a href="#references">References</a><!-feedback-->
-					<li><a href="#contactme">Contact Me</a>
+					<li><a data-scroll href="#contactme">Contact Me</a>
 				</ul>
 			</div>
 		</div><!--End Container-->
@@ -245,7 +247,10 @@
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 	<!--End Bootstrap JS-->
 	<script type="text/JavaScript" src="js/validate.js"></script>
-
+	<!-- smooth scroll -->
+	<script>
+    	smoothScroll.init();
+	</script>
 
   
 </body>	
